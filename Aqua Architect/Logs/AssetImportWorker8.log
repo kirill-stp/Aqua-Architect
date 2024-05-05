@@ -1,0 +1,1220 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.27f1 (73effa14754f) revision 7598074'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32540 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Apps\Unity\2022.3.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+E:/Unity Projects/Aqua-Architect/Aqua Architect
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+50088
+Successfully changed project path to: E:/Unity Projects/Aqua-Architect/Aqua Architect
+E:/Unity Projects/Aqua-Architect/Aqua Architect
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [35900] Host "[IP] 192.168.1.23 [Port] 0 [Flags] 2 [Guid] 1772180022 [EditorId] 1772180022 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7K5S1Q8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [35900] Host "[IP] 192.168.1.23 [Port] 0 [Flags] 2 [Guid] 1772180022 [EditorId] 1772180022 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7K5S1Q8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 142.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.27f1 (73effa14754f)
+[Subsystems] Discovering subsystems at path D:/Apps/Unity/2022.3.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity Projects/Aqua-Architect/Aqua Architect/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2487)
+    Vendor:   NVIDIA
+    VRAM:     12124 MB
+    Driver:   31.0.15.3699
+Initialize mono
+Mono path[0] = 'D:/Apps/Unity/2022.3.27f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Apps/Unity/2022.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Apps/Unity/2022.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Apps/Unity/2022.3.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Apps/Unity/2022.3.27f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: D:/Apps/Unity/2022.3.27f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Apps/Unity/2022.3.27f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/Apps/Unity/2022.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Apps/Unity/2022.3.27f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.011128 seconds.
+- Loaded All Assemblies, in  0.710 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 417 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.820 seconds
+Domain Reload Profiling: 1530ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (120ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (398ms)
+		LoadAssemblies (115ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (394ms)
+			TypeCache.Refresh (393ms)
+				TypeCache.ScanAssembly (378ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (820ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (756ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (576ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (101ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.922 seconds
+Refreshing native plugins compatible for Editor in 2.76 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.093 seconds
+Domain Reload Profiling: 2015ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (684ms)
+		LoadAssemblies (338ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (427ms)
+			TypeCache.Refresh (378ms)
+				TypeCache.ScanAssembly (325ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1093ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (830ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (367ms)
+			ProcessInitializeOnLoadMethodAttributes (336ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (50ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 2.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5270 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 83 unused Assets / (421.6 KB). Loaded Objects now: 5732.
+Memory consumption went from 216.7 MB to 216.3 MB.
+Total: 4.241500 ms (FindLiveObjects: 0.737300 ms CreateObjectMapping: 0.190000 ms MarkObjects: 3.100500 ms  DeleteObjects: 0.212700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 5c1499cfc43e291157e191fb54bb34f9 -> 42480eed24e61f9d7e7e895933644f96
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 419981.987925 seconds.
+  path: Assets/Images/IsometricBuildings/chimney_detailed_NW.png
+  artifactKey: Guid(f0ca67aa0e7131c45a7cdf3792a64820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/chimney_detailed_NW.png using Guid(f0ca67aa0e7131c45a7cdf3792a64820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb105755715f38672099c627dc24173') in 0.084540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Images/IsometricBuildings/corridor_cross_SW.png
+  artifactKey: Guid(5e48a764f7bda1d46b9f110c302829be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/corridor_cross_SW.png using Guid(5e48a764f7bda1d46b9f110c302829be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe123eb1e2a5aeeb1d36e7991c7cab52') in 0.058626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Images/IsometricBuildings/corridor_detailed_SE.png
+  artifactKey: Guid(815e7948342742e4895b0e617464d3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/corridor_detailed_SE.png using Guid(815e7948342742e4895b0e617464d3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a8159ebb95ed51b5811f9d8f87da4f') in 0.060322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Images/IsometricBuildings/corridor_split_SW.png
+  artifactKey: Guid(ef1973db847588a47ae6e51212e11e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/corridor_split_SW.png using Guid(ef1973db847588a47ae6e51212e11e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263071b5d0e2b5225f7fc9caebad00c9') in 0.015378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Images/IsometricBuildings/corridor_SE.png
+  artifactKey: Guid(f2ea388d4777b3a42a71945d8ffe8ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/corridor_SE.png using Guid(f2ea388d4777b3a42a71945d8ffe8ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d81a48eec2b9739d42de7326299ebc7') in 0.007165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Images/IsometricBuildings/corridor_window_NE.png
+  artifactKey: Guid(d9c8727e0ea16e14ba271ccf3c6dd27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/corridor_window_NE.png using Guid(d9c8727e0ea16e14ba271ccf3c6dd27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426e74aa789c67ff9d6e358e8b85708a') in 0.018513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Images/IsometricBuildings/corridor_cross_NW.png
+  artifactKey: Guid(cf086a838f80b3543bb8a8d2d09486d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/corridor_cross_NW.png using Guid(cf086a838f80b3543bb8a8d2d09486d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64193787b9ea45dba3de557ff8ab3fb9') in 0.012057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Images/IsometricBuildings/corridor_roof_NE.png
+  artifactKey: Guid(713709dcf11000140a5c7e03fc44eeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/corridor_roof_NE.png using Guid(713709dcf11000140a5c7e03fc44eeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f91b9e1e1a4267dcdd499eb08cfd728') in 0.013414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Images/IsometricBuildings/corridor_wallCorner_SW.png
+  artifactKey: Guid(04ad84f093dd9e749b65ef55015ace8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/corridor_wallCorner_SW.png using Guid(04ad84f093dd9e749b65ef55015ace8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e464cae5588e360b48fa35af55abed8f') in 0.012554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Images/IsometricBuildings/corridor_open_NE.png
+  artifactKey: Guid(ae44f9ac76214964394c9255d7f3e69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/corridor_open_NE.png using Guid(ae44f9ac76214964394c9255d7f3e69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9dc842fc90583e597b8eb5b7b054638') in 0.012917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Images/IsometricBuildings/corridor_end_SE.png
+  artifactKey: Guid(2c7ae670b84cda0408d82c4c481a9445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/corridor_end_SE.png using Guid(2c7ae670b84cda0408d82c4c481a9445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630365f4353e9f7925949365d125eaef') in 0.013360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Images/IsometricBuildings/corridor_split_SE.png
+  artifactKey: Guid(bffbbdd8099d852458af522074991f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/corridor_split_SE.png using Guid(bffbbdd8099d852458af522074991f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e636478f59d9f827adef04d2b0579f7') in 0.013561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Images/IsometricBuildings/corridor_wall_NE.png
+  artifactKey: Guid(5887378cd5961eb4ab65d322baf0490c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/corridor_wall_NE.png using Guid(5887378cd5961eb4ab65d322baf0490c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e56ecb433db8bf11591076eb52c8f92') in 0.012955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Images/IsometricBuildings/corridor_window_SW.png
+  artifactKey: Guid(eb99d5c22b9c0fa4dbdd2740de4511b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/corridor_window_SW.png using Guid(eb99d5c22b9c0fa4dbdd2740de4511b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0064f91961c8287966616792dd895c93') in 0.012412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Images/IsometricBuildings/corridor_windowClosed_SE.png
+  artifactKey: Guid(56347408c8dd35e469ed6e1a5a5c8afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/corridor_windowClosed_SE.png using Guid(56347408c8dd35e469ed6e1a5a5c8afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b4cc900cb3d0500d1dfbdd1cbcf82e') in 0.012617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Images/IsometricBuildings/craft_cargoA_SW.png
+  artifactKey: Guid(68671bb48d07d104594cc3567e9f8f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/craft_cargoA_SW.png using Guid(68671bb48d07d104594cc3567e9f8f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a02f32be6649cebd88531fa52c6e8c7') in 0.020515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Images/IsometricBuildings/craft_cargoB_NW.png
+  artifactKey: Guid(ddbeea3b677b4c84884be00e82d779db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/craft_cargoB_NW.png using Guid(ddbeea3b677b4c84884be00e82d779db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3fdd3d8b25ed4c205bb6e820b6c4e69') in 0.012083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Images/IsometricBuildings/craft_cargoB_SW.png
+  artifactKey: Guid(c5109fd61b54df249b10023d84ae50d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/craft_cargoB_SW.png using Guid(c5109fd61b54df249b10023d84ae50d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6d1a3223ac881be2f692aaf4e765bb') in 0.012950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Images/IsometricBuildings/craft_speederA_SE.png
+  artifactKey: Guid(1616f040cd6976b4e8724ec28629845a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/craft_speederA_SE.png using Guid(1616f040cd6976b4e8724ec28629845a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa1060481a295a7f0da54933c0f0399') in 0.012399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Images/IsometricBuildings/craft_speederC_NE.png
+  artifactKey: Guid(e581c3793a590cf4e82bf3d606423f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/craft_speederC_NE.png using Guid(e581c3793a590cf4e82bf3d606423f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7ba65029ba7344fcef377ad48e0d1d') in 0.012777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Images/IsometricBuildings/craft_speederB_SW.png
+  artifactKey: Guid(517514c2093abe746bc54d4f50afd1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/craft_speederB_SW.png using Guid(517514c2093abe746bc54d4f50afd1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edde9e3c9e160e85b9c1ff0f32c3fc99') in 0.012606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.057264 seconds.
+  path: Assets/Images/IsometricBuildings/craft_speederC_NW.png
+  artifactKey: Guid(e5dc40aa91f853a43b12aeb688f77afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/craft_speederC_NW.png using Guid(e5dc40aa91f853a43b12aeb688f77afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8d00da8c82eff3496f33bc8b71bd6f') in 0.022140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Images/IsometricBuildings/craft_speederD_NW.png
+  artifactKey: Guid(8c66bf7b1e826984080ea6313bece74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/craft_speederD_NW.png using Guid(8c66bf7b1e826984080ea6313bece74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f092236760f6f5f7331709f23249a35') in 0.016325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 14.632960 seconds.
+  path: Assets/Images/IsometricBuildings/crater_NW.png
+  artifactKey: Guid(a07ed9f345d9a824188ae6d8b17a5bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/crater_NW.png using Guid(a07ed9f345d9a824188ae6d8b17a5bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c69f0b7dc6a3b9554a68be1b984181') in 0.020715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Images/IsometricBuildings/desk_chairArms_NE.png
+  artifactKey: Guid(e0b166a368abe534cb065fa8dd4bdc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/desk_chairArms_NE.png using Guid(e0b166a368abe534cb065fa8dd4bdc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c1fe7d5cf0d68190fcc5f2071b9429') in 0.026517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Images/IsometricBuildings/desk_chair_NE.png
+  artifactKey: Guid(24cd75150aa1c4d498626bb7322115ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/desk_chair_NE.png using Guid(24cd75150aa1c4d498626bb7322115ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cf6d5324ced78fd2e95b3f9584bb28') in 0.016717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.061284 seconds.
+  path: Assets/Images/IsometricBuildings/desk_chairStool_NW.png
+  artifactKey: Guid(09f0d1cb2b35d734387bd4e8cb366648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/desk_chairStool_NW.png using Guid(09f0d1cb2b35d734387bd4e8cb366648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3300a05a6de3a2562121d471d6fed562') in 0.027597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Images/IsometricBuildings/gate_complex_NE.png
+  artifactKey: Guid(33a868f4702f3984b990ba04e05370c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/gate_complex_NE.png using Guid(33a868f4702f3984b990ba04e05370c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31252d460479bf1e710f0b9efadea776') in 0.014001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Images/IsometricBuildings/gate_complex_NW.png
+  artifactKey: Guid(002e5b646cbae2f4b9c791f898be8d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/gate_complex_NW.png using Guid(002e5b646cbae2f4b9c791f898be8d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd17b734b9f1d75ba78f6f488e311e2c') in 0.014162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Images/IsometricBuildings/hangar_largeB_NW.png
+  artifactKey: Guid(e10ff29fe568a274fa6d75976e0be299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/hangar_largeB_NW.png using Guid(e10ff29fe568a274fa6d75976e0be299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2845231db1d6c52fb145db166661824b') in 0.013623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Images/IsometricBuildings/gate_complex_SW.png
+  artifactKey: Guid(a884b5f1712b0674cb9f393489afa937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/gate_complex_SW.png using Guid(a884b5f1712b0674cb9f393489afa937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055e5e3a95e3bbd6acbd2b86ea6c80eb') in 0.014359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Images/IsometricBuildings/desk_computerScreen_SW.png
+  artifactKey: Guid(f5958c1de072f154aae4d1fb510aea84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/desk_computerScreen_SW.png using Guid(f5958c1de072f154aae4d1fb510aea84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f7253c99db678f290ded47dc645860') in 0.014553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Images/IsometricBuildings/hangar_roundA_SW.png
+  artifactKey: Guid(e6c3adbf3e67d0840a1c2119281ca6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/hangar_roundA_SW.png using Guid(e6c3adbf3e67d0840a1c2119281ca6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd62243b3ccc5cd1d28e1d27e6083eac') in 0.014267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Images/IsometricBuildings/hangar_smallA_NE.png
+  artifactKey: Guid(45b0d39e9c21f844eaef37919529da61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/hangar_smallA_NE.png using Guid(45b0d39e9c21f844eaef37919529da61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe461fa0df8f40148c1cad65eb7a2907') in 0.014491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Images/IsometricBuildings/hangar_smallA_NW.png
+  artifactKey: Guid(42dc38a600b598045aa3cbd796b506bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/hangar_smallA_NW.png using Guid(42dc38a600b598045aa3cbd796b506bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2149fd841d5c42e916572b5eb5d249af') in 0.013518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Images/IsometricBuildings/desk_computer_SE.png
+  artifactKey: Guid(a3446b1cda0d48644bd85659fb3f0cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/desk_computer_SE.png using Guid(a3446b1cda0d48644bd85659fb3f0cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73cd4cd39bc7b021ab58ae6ce4f2c3e') in 0.013677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Images/IsometricBuildings/desk_computerCorner_SE.png
+  artifactKey: Guid(1a9717d658c72bb48b6b5af9bf985cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/desk_computerCorner_SE.png using Guid(1a9717d658c72bb48b6b5af9bf985cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11deb60112a4057269620cb7ceab4bd5') in 0.014829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Images/IsometricBuildings/hangar_smallB_NW.png
+  artifactKey: Guid(1a4a680f975c752488a4db1d532cadd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/hangar_smallB_NW.png using Guid(1a4a680f975c752488a4db1d532cadd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac551e402321be3d6183f1de1e78564') in 0.012762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Images/IsometricBuildings/machine_barrel_SW.png
+  artifactKey: Guid(4106dc1f7fd918d47898a38dacebc2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/machine_barrel_SW.png using Guid(4106dc1f7fd918d47898a38dacebc2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee27c130eec3e4c316e3de67f53d3a97') in 0.013413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Images/IsometricBuildings/hangar_largeB_SW.png
+  artifactKey: Guid(e9a7482828c21fe4397b2db4e8916f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/hangar_largeB_SW.png using Guid(e9a7482828c21fe4397b2db4e8916f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffed4aa94a7e8c2098444ed33e8d6163') in 0.012952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.254268 seconds.
+  path: Assets/Images/IsometricBuildings/machine_barrelLarge_NW.png
+  artifactKey: Guid(7e1386956b2b4824198c4bfd6be3a5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/machine_barrelLarge_NW.png using Guid(7e1386956b2b4824198c4bfd6be3a5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ca598175bef4e10e3a02fc7c1c5d4b') in 0.030360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Images/IsometricBuildings/machine_generator_SE.png
+  artifactKey: Guid(0197d415e5dccf245b89d1d8cffc69e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/machine_generator_SE.png using Guid(0197d415e5dccf245b89d1d8cffc69e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5177fb6245234ab17435ed1254ecc590') in 0.014157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Images/IsometricBuildings/machine_wireless_SE.png
+  artifactKey: Guid(8201ea9708e460941b177d398898ee79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/machine_wireless_SE.png using Guid(8201ea9708e460941b177d398898ee79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c9a26624459bc780ea754a7d0b9f78') in 0.019548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Images/IsometricBuildings/machine_wirelessCable_SE.png
+  artifactKey: Guid(e2951aae62a1eb940b28a2b72c6519f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/machine_wirelessCable_SE.png using Guid(e2951aae62a1eb940b28a2b72c6519f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df385c707aad8bd7a0a3da86e9111ec5') in 0.012440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Images/IsometricBuildings/monorail_trackStraight_NE.png
+  artifactKey: Guid(952c8777d7c288945911a12b9f152b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/monorail_trackStraight_NE.png using Guid(952c8777d7c288945911a12b9f152b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1deab4196bfa82f57809d3a64b7ea8b9') in 0.012037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Images/IsometricBuildings/monorail_trackStraight_SE.png
+  artifactKey: Guid(2f7934ef885511d4d9229960c631da24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/monorail_trackStraight_SE.png using Guid(2f7934ef885511d4d9229960c631da24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e471271dd50402180b1cd68dbda45302') in 0.014113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Images/IsometricBuildings/machine_wireless_NE.png
+  artifactKey: Guid(a61de8b56a45f6347b8e4561310e5c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/machine_wireless_NE.png using Guid(a61de8b56a45f6347b8e4561310e5c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd05eb00f1595177f4a045bb44063bed') in 0.012440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Images/IsometricBuildings/monorail_trackCornerLarge_SE.png
+  artifactKey: Guid(10508922fee124c448bc005d53e27273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/monorail_trackCornerLarge_SE.png using Guid(10508922fee124c448bc005d53e27273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe0498012e8da6fc1b8a44df9b008c7') in 0.013526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Images/IsometricBuildings/meteor_detailed_NW.png
+  artifactKey: Guid(4c8a0e898cbabf840af8110a8868f9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/meteor_detailed_NW.png using Guid(4c8a0e898cbabf840af8110a8868f9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22cc9495247191de5eb7c7820810765') in 0.012959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Images/IsometricBuildings/monorail_trackCornerLarge_SW.png
+  artifactKey: Guid(2eb01a5b6700737449080b21ddbb60aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/monorail_trackCornerLarge_SW.png using Guid(2eb01a5b6700737449080b21ddbb60aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df234166b94e29c86ced5da2147bbd6') in 0.013528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Images/IsometricBuildings/meteor_half_SW.png
+  artifactKey: Guid(52d8c398abd439341a58c446056a4192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/meteor_half_SW.png using Guid(52d8c398abd439341a58c446056a4192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a60d2563616495117d0718d13b4940') in 0.007135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Images/IsometricBuildings/machine_generatorLarge_SE.png
+  artifactKey: Guid(89a2051033025ed45b63c0026f440d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/machine_generatorLarge_SE.png using Guid(89a2051033025ed45b63c0026f440d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15516ff73c61092ed9aa1589cdd762a') in 0.013764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.239432 seconds.
+  path: Assets/Images/IsometricBuildings/monorail_trackSupport_NW.png
+  artifactKey: Guid(1d5a711ecdaeaec4b9f352831d4ca9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/monorail_trackSupport_NW.png using Guid(1d5a711ecdaeaec4b9f352831d4ca9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e228cb7798074d6ac3def0c41132fd') in 0.035388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Images/IsometricBuildings/monorail_trainBox_NE.png
+  artifactKey: Guid(472cb2d95ffb43f48860fc47ccd85fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/monorail_trainBox_NE.png using Guid(472cb2d95ffb43f48860fc47ccd85fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4719918c45c7950127f9dc3eedff11b') in 0.031680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Images/IsometricBuildings/monorail_trackSupportCorner_SW.png
+  artifactKey: Guid(ecee529e21313db4d9e4856d32b7f06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/monorail_trackSupportCorner_SW.png using Guid(ecee529e21313db4d9e4856d32b7f06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90efd71deb568cef768ca6a6936bf315') in 0.014103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Images/IsometricBuildings/monorail_trainBox_SW.png
+  artifactKey: Guid(3e8275418b0475b4c9c6038c9619c193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/monorail_trainBox_SW.png using Guid(3e8275418b0475b4c9c6038c9619c193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32849f1d3f844496bd0fb804b0e0f7f') in 0.013058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Images/IsometricBuildings/monorail_trainFront_NE.png
+  artifactKey: Guid(c323f1f6b0cb6ba41b651da71fb19fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/monorail_trainFront_NE.png using Guid(c323f1f6b0cb6ba41b651da71fb19fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb656ee958b7ac8edf01baa59b6891d') in 0.013748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Images/IsometricBuildings/monorail_trainEnd_SE.png
+  artifactKey: Guid(7fcbef9b89572d7489fb577122ea6f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/monorail_trainEnd_SE.png using Guid(7fcbef9b89572d7489fb577122ea6f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f38cc60f3bffe0e20f0466ea88d91f') in 0.014983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003331 seconds.
+  path: Assets/Images/IsometricBuildings/monorail_trainFront_NW.png
+  artifactKey: Guid(5c05e38a183e3ee4684c2256d701dff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/monorail_trainFront_NW.png using Guid(5c05e38a183e3ee4684c2256d701dff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452b24d6877bad33c0cbab054cc38c48') in 0.012786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Images/IsometricBuildings/monorail_trainPassenger_NW.png
+  artifactKey: Guid(abc76750326cb9e48b5aca3d450365d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/monorail_trainPassenger_NW.png using Guid(abc76750326cb9e48b5aca3d450365d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2abb7eca641d8afb13254f310b61f7d') in 0.012907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.029509 seconds.
+  path: Assets/Images/IsometricBuildings/pipe_corner_NW.png
+  artifactKey: Guid(5a3edbb0462ac1d4f978d960fe8d4ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/pipe_corner_NW.png using Guid(5a3edbb0462ac1d4f978d960fe8d4ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b42bb39b67dccaf92e12fca254cf46') in 0.032247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Images/IsometricBuildings/pipe_cornerDiagonal_SE.png
+  artifactKey: Guid(f6f6008222e05aa4381e9faa6fa3c82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/pipe_cornerDiagonal_SE.png using Guid(f6f6008222e05aa4381e9faa6fa3c82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dab527ec428bc6683dfb702ab50410d') in 0.013877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.345146 seconds.
+  path: Assets/Images/IsometricBuildings/pipe_cornerRound_NW.png
+  artifactKey: Guid(c78094a2400565f42a761a79ae22ecb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/pipe_cornerRound_NW.png using Guid(c78094a2400565f42a761a79ae22ecb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705938b555d8a924c140a1b1570f69da') in 0.015830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Images/IsometricBuildings/pipe_cross_NE.png
+  artifactKey: Guid(0290661d271b9644d887cec848fee0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/pipe_cross_NE.png using Guid(0290661d271b9644d887cec848fee0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d56e1e09a1d35e9818d602420034525') in 0.014604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Images/IsometricBuildings/pipe_cross_SE.png
+  artifactKey: Guid(0d8ee395efbdc0443a94bdf87b7e2006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/pipe_cross_SE.png using Guid(0d8ee395efbdc0443a94bdf87b7e2006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd638459e26304432735bfbd5621534cc') in 0.014155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Images/IsometricBuildings/pipe_end_NW.png
+  artifactKey: Guid(9f3850504f894d34694e1855c07e6b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/pipe_end_NW.png using Guid(9f3850504f894d34694e1855c07e6b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57707bc50e187b4fb4e3ffc00bae181') in 0.014897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.018003 seconds.
+  path: Assets/Images/IsometricBuildings/pipe_entrance_NW.png
+  artifactKey: Guid(04b710408e5623e45b3aad2f1469e98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/pipe_entrance_NW.png using Guid(04b710408e5623e45b3aad2f1469e98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1114d5db894d8a0c69b113f9a97d81ec') in 0.017472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Images/IsometricBuildings/pipe_entrance_SW.png
+  artifactKey: Guid(2180bd7f2b76eaf49befa55805f0f340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/pipe_entrance_SW.png using Guid(2180bd7f2b76eaf49befa55805f0f340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014f48694cd77a293521e66304706edc') in 0.012899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.058036 seconds.
+  path: Assets/Images/IsometricBuildings/pipe_rampLarge_NW.png
+  artifactKey: Guid(dd71df8db1e9f0f4e8cb97b19e67399b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/pipe_rampLarge_NW.png using Guid(dd71df8db1e9f0f4e8cb97b19e67399b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9241e2f6a50f81631326e363b5dd6774') in 0.013611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Images/IsometricBuildings/pipe_rampSmall_SE.png
+  artifactKey: Guid(8deff1e81b8493a49bb754cdd34ea927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/pipe_rampSmall_SE.png using Guid(8deff1e81b8493a49bb754cdd34ea927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541ff0b8b5ce5d3656fdfd01ecad9160') in 0.012680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.069775 seconds.
+  path: Assets/Images/IsometricBuildings/pipe_ring_NW.png
+  artifactKey: Guid(a7d1e853cdff64a47aced0a679c53a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/pipe_ring_NW.png using Guid(a7d1e853cdff64a47aced0a679c53a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be42495a19f15b4da8c9343a600ffe4a') in 0.013758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Images/IsometricBuildings/pipe_ringHighEnd_NE.png
+  artifactKey: Guid(4e157fa9f074cc34788b57ae45b8a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/pipe_ringHighEnd_NE.png using Guid(4e157fa9f074cc34788b57ae45b8a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71df1791090e0d3ee85366659444c1b5') in 0.012930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.360293 seconds.
+  path: Assets/Images/IsometricBuildings/pipe_ringHighEnd_NW.png
+  artifactKey: Guid(3878fa54bdf17c74f868c240728a0b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/pipe_ringHighEnd_NW.png using Guid(3878fa54bdf17c74f868c240728a0b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c382309c7df0307029f65c172e775da') in 0.016451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Images/IsometricBuildings/pipe_split_NE.png
+  artifactKey: Guid(4d1d1b70bbf3a514fbd2b205de5ebaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/pipe_split_NE.png using Guid(4d1d1b70bbf3a514fbd2b205de5ebaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9028d04fc1c9891e33e0d449ab19fc') in 0.013671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Images/IsometricBuildings/pipe_straight_NE.png
+  artifactKey: Guid(5d58e97ea92cc8a4989b3c69e46cff71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/pipe_straight_NE.png using Guid(5d58e97ea92cc8a4989b3c69e46cff71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee110da6a9c1b247e8a7df264a4567ee') in 0.015588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Images/IsometricBuildings/pipe_straight_NW.png
+  artifactKey: Guid(b443e77d7179c714fa0f523179e1ebad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/pipe_straight_NW.png using Guid(b443e77d7179c714fa0f523179e1ebad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebcc680d96c1f81bd8b8ac33fd4713fc') in 0.013729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Images/IsometricBuildings/platform_center_SE.png
+  artifactKey: Guid(8c07b388fd7d69f448ff3e244c2c0bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/platform_center_SE.png using Guid(8c07b388fd7d69f448ff3e244c2c0bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f585d1066c014ebe0b6ac8a7dc5bd64f') in 0.011343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Images/IsometricBuildings/pipe_supportHigh_NE.png
+  artifactKey: Guid(f96f2615b7d95e546840328f07e29f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/pipe_supportHigh_NE.png using Guid(f96f2615b7d95e546840328f07e29f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05313a5dc0690331e736690fed84e192') in 0.016644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Images/IsometricBuildings/platform_cornerOpen_NW.png
+  artifactKey: Guid(8036bf509eeb277468e06b8368b0ca6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/platform_cornerOpen_NW.png using Guid(8036bf509eeb277468e06b8368b0ca6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87783e3aaad16a328dad57eeb1931dda') in 0.011860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Images/IsometricBuildings/platform_corner_NW.png
+  artifactKey: Guid(030f29974bae91f4aa7b08b032d1d545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/platform_corner_NW.png using Guid(030f29974bae91f4aa7b08b032d1d545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d6abd44c1e5064022171944aec11ee') in 0.013445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Images/IsometricBuildings/platform_cornerRound_SW.png
+  artifactKey: Guid(7f8b242aa539de941ace839d0bfcc55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/platform_cornerRound_SW.png using Guid(7f8b242aa539de941ace839d0bfcc55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948a10c4586ccd84f02e5b042e375b5b') in 0.023374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Images/IsometricBuildings/platform_corner_SW.png
+  artifactKey: Guid(e711e899c9e7e784898252663a78ad15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/platform_corner_SW.png using Guid(e711e899c9e7e784898252663a78ad15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563d17167810b7709f55d9e94f1ab046') in 0.013742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Images/IsometricBuildings/pipe_ringSupport_SW.png
+  artifactKey: Guid(dba0d892ef96e8a4e855b2c549dc9b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/pipe_ringSupport_SW.png using Guid(dba0d892ef96e8a4e855b2c549dc9b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02dc5ac58b09f91a530f05d968fc4bc') in 0.014356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.333741 seconds.
+  path: Assets/Images/IsometricBuildings/platform_end_NW.png
+  artifactKey: Guid(4b5a9127cca906346b8ca2e55107fdab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/platform_end_NW.png using Guid(4b5a9127cca906346b8ca2e55107fdab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef0c678f300d27aa0d99ad4ab2d0ef7') in 0.032220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Images/IsometricBuildings/platform_high_SW.png
+  artifactKey: Guid(4ce779608de1b47499f45af9cdc71011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/platform_high_SW.png using Guid(4ce779608de1b47499f45af9cdc71011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ccd892f07b9bf59b995ca48ee1e517') in 0.014443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Images/IsometricBuildings/platform_large_NW.png
+  artifactKey: Guid(fecf52f53374729459fa721f1e802b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/platform_large_NW.png using Guid(fecf52f53374729459fa721f1e802b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2732ff19f156395ea0ed6cda5313ec') in 0.013981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Images/IsometricBuildings/platform_long_SW.png
+  artifactKey: Guid(483556377c8776842ba077dd1ffa1985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/platform_long_SW.png using Guid(483556377c8776842ba077dd1ffa1985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d130c3d175da5ba4ab6b5cc294cce0') in 0.013347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Images/IsometricBuildings/platform_low_NE.png
+  artifactKey: Guid(32b1cdcb351909b439dd0666d398a200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/platform_low_NE.png using Guid(32b1cdcb351909b439dd0666d398a200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d04e9e9f213b6b267dfb28235e2a9ba') in 0.014080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Images/IsometricBuildings/platform_long_SE.png
+  artifactKey: Guid(b1ad50a87a8b7a740a102e3464f2038a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/platform_long_SE.png using Guid(b1ad50a87a8b7a740a102e3464f2038a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a6835f744e57f2e2dabbab6806820b') in 0.013377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.725042 seconds.
+  path: Assets/Images/IsometricBuildings/platform_small_NW.png
+  artifactKey: Guid(9261374d09973794bbe902894e0da420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/platform_small_NW.png using Guid(9261374d09973794bbe902894e0da420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d3d00735a4565a4f3fbe5869f15b4c') in 0.031277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Images/IsometricBuildings/platform_straight_NE.png
+  artifactKey: Guid(22914d6db4bb14545a939e5494dc0990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/platform_straight_NE.png using Guid(22914d6db4bb14545a939e5494dc0990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a5f03d4bde82b23f5b9baad18b73f4') in 0.025301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Images/IsometricBuildings/platform_straight_NW.png
+  artifactKey: Guid(64b7322db2018374295fc481e2ad9600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/platform_straight_NW.png using Guid(64b7322db2018374295fc481e2ad9600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fd92c156911958db8dde2d149daae8') in 0.028333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Images/IsometricBuildings/rail_end_NE.png
+  artifactKey: Guid(84aae6940298b994488fbd429be476d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/rail_end_NE.png using Guid(84aae6940298b994488fbd429be476d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae3224127c24fc75c1891d903b21f4c') in 0.020891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Images/IsometricBuildings/rail_end_SE.png
+  artifactKey: Guid(de414bb4c5058754eb6398871e2e3e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/rail_end_SE.png using Guid(de414bb4c5058754eb6398871e2e3e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42df8af231a916c7f94fec3ee7352820') in 0.023258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Images/IsometricBuildings/rail_middle_SE.png
+  artifactKey: Guid(97b167b8a2f22fd4699fbaba34115d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/rail_middle_SE.png using Guid(97b167b8a2f22fd4699fbaba34115d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012be684cf4d0c22172004da55a840e2') in 0.017202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.227482 seconds.
+  path: Assets/Images/IsometricBuildings/rail_NW.png
+  artifactKey: Guid(99ce18d43bf671d42bae9663a11f001f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/rail_NW.png using Guid(99ce18d43bf671d42bae9663a11f001f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ff2d917c0eeb49e1936347325e4749') in 0.036240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Images/IsometricBuildings/rock_crystalsLargeB_NW.png
+  artifactKey: Guid(6739f0f3898799a489d52b79bce08311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/rock_crystalsLargeB_NW.png using Guid(6739f0f3898799a489d52b79bce08311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713d26e795df8a2aa5fab3f3f0e05e62') in 0.014799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Images/IsometricBuildings/rock_crystals_SE.png
+  artifactKey: Guid(4b3dc7cc2dfb85842b0bb6c45b439683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/rock_crystals_SE.png using Guid(4b3dc7cc2dfb85842b0bb6c45b439683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebaa4834aade5344a303909d368df9bb') in 0.014417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Images/IsometricBuildings/rock_crystalsLargeA_NE.png
+  artifactKey: Guid(250b29feaa358c240b09ce1f369c1b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/rock_crystalsLargeA_NE.png using Guid(250b29feaa358c240b09ce1f369c1b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa97198360e6db0c46eb0bdc8984ffa') in 0.011817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.261092 seconds.
+  path: Assets/Images/IsometricBuildings/rock_largeA_NW.png
+  artifactKey: Guid(48144a43ace708943b59e27a1fb5bdcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/rock_largeA_NW.png using Guid(48144a43ace708943b59e27a1fb5bdcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15425615e830f8f40847264866db436e') in 0.019920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Images/IsometricBuildings/rocket_finsA_SW.png
+  artifactKey: Guid(50853791ac292404dbe0dc463a7d972c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/rocket_finsA_SW.png using Guid(50853791ac292404dbe0dc463a7d972c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88fd8c210c058bee7a742a8479eadeff') in 0.017247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Images/IsometricBuildings/rocket_fuelA_SE.png
+  artifactKey: Guid(5f379145a3c7a6746aab6ca916ec96c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/rocket_fuelA_SE.png using Guid(5f379145a3c7a6746aab6ca916ec96c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b857190cac13d67cbd3a4acae134e904') in 0.012084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Images/IsometricBuildings/rocket_sidesA_NW.png
+  artifactKey: Guid(b8d8b4c3d5b62104e903db9dc7d95e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/rocket_sidesA_NW.png using Guid(b8d8b4c3d5b62104e903db9dc7d95e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3a754baad6a72cf404ee1881a3e452') in 0.014840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Images/IsometricBuildings/rock_largeB_SW.png
+  artifactKey: Guid(f090a5d82a93c5e418ef06318414bd01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/rock_largeB_SW.png using Guid(f090a5d82a93c5e418ef06318414bd01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ff6c1fa33c5751a4390759f882d890') in 0.018505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Images/IsometricBuildings/rocket_baseB_SW.png
+  artifactKey: Guid(42bc56ee971d5054ea100bf99e961e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/rocket_baseB_SW.png using Guid(42bc56ee971d5054ea100bf99e961e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f549fe223aa4e4c6e0a2891ec6717d0') in 0.017792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Images/IsometricBuildings/rocket_fuelB_NW.png
+  artifactKey: Guid(e3ed6dc52a2675f43b822ee24d67bf99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/rocket_fuelB_NW.png using Guid(e3ed6dc52a2675f43b822ee24d67bf99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488751f5ebb7ad65c9fba287c4d88795') in 0.013096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Images/IsometricBuildings/rocket_topA_NE.png
+  artifactKey: Guid(3ccfd217d94d8e24ba9a261c74898cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/rocket_topA_NE.png using Guid(3ccfd217d94d8e24ba9a261c74898cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ce35e5729509289b100089c619a005') in 0.010714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Images/IsometricBuildings/rocket_finsB_NW.png
+  artifactKey: Guid(ff55a42505872c84b9a6dfe7d20c1f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/rocket_finsB_NW.png using Guid(ff55a42505872c84b9a6dfe7d20c1f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767f9bf249d5c92ff3cf1ab82c82e3ae') in 0.017273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Images/IsometricBuildings/rocket_fuelB_SE.png
+  artifactKey: Guid(1ed82fe037dc9ff409cc2aa7da673343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/rocket_fuelB_SE.png using Guid(1ed82fe037dc9ff409cc2aa7da673343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab95c31d657bc7b48bbb81643431b195') in 0.013428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Images/IsometricBuildings/rocket_sidesA_NE.png
+  artifactKey: Guid(9db246cda3a8ce9439b46c7e9aaabbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/rocket_sidesA_NE.png using Guid(9db246cda3a8ce9439b46c7e9aaabbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ac6520eac5b11c15b3a29655d1a0bf') in 0.013703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Images/IsometricBuildings/rocket_sidesB_SW.png
+  artifactKey: Guid(ed25e80d6a9847d4aa41063612cce39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/rocket_sidesB_SW.png using Guid(ed25e80d6a9847d4aa41063612cce39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b87cda714ad5c3cf4ca5d6f258540a0') in 0.013109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.570832 seconds.
+  path: Assets/Images/IsometricBuildings/rocket_topB_NW.png
+  artifactKey: Guid(fb728745fcbad30488bc62d91546d4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/rocket_topB_NW.png using Guid(fb728745fcbad30488bc62d91546d4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58657d00c5218892822c878b358119c') in 0.032940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Images/IsometricBuildings/rocks_smallA_NW.png
+  artifactKey: Guid(39a38c4a15cd8134f9748cae3007cef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/rocks_smallA_NW.png using Guid(39a38c4a15cd8134f9748cae3007cef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665dd8f621046e8bd29cd6c5ac4c518f') in 0.019468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.215986 seconds.
+  path: Assets/Images/IsometricBuildings/rocks_smallB_NW.png
+  artifactKey: Guid(4f67f9f050664e540b3342fb33c0a1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/rocks_smallB_NW.png using Guid(4f67f9f050664e540b3342fb33c0a1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb2fcfad31d294fcb7e7e061c205272') in 0.016079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Images/IsometricBuildings/rover_NW.png
+  artifactKey: Guid(0a1a978d47db0e44cb9535224481d6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/rover_NW.png using Guid(0a1a978d47db0e44cb9535224481d6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a81cbea94f3984a54624f25db32985') in 0.019109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.019596 seconds.
+  path: Assets/Images/IsometricBuildings/satelliteDish_detailed_NW.png
+  artifactKey: Guid(89e2ef37b00257943987fb2910988c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/satelliteDish_detailed_NW.png using Guid(89e2ef37b00257943987fb2910988c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104629287fdb7c362275c837146d8964') in 0.013799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Images/IsometricBuildings/satelliteDish_large_NW.png
+  artifactKey: Guid(3965d14c048dc3b46b563ba21f59fb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/satelliteDish_large_NW.png using Guid(3965d14c048dc3b46b563ba21f59fb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db92cf3a2c3aadfde0d91a9263704bf3') in 0.013236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Images/IsometricBuildings/satelliteDish_large_SW.png
+  artifactKey: Guid(9ed34df653a01444f81f431d46532bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/satelliteDish_large_SW.png using Guid(9ed34df653a01444f81f431d46532bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77511b08d926d3d258dacf18c0848303') in 0.013219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Images/IsometricBuildings/stairs_NE.png
+  artifactKey: Guid(48147d6de42cbb74eb336f8a39243866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/stairs_NE.png using Guid(48147d6de42cbb74eb336f8a39243866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9b2cc68d9b4f62c4f1dddabcd0a48f') in 0.013192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.058873 seconds.
+  path: Assets/Images/IsometricBuildings/stairs_NW.png
+  artifactKey: Guid(21dbf6e6dbc993341b8a7eb24b86cc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/stairs_NW.png using Guid(21dbf6e6dbc993341b8a7eb24b86cc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2a48614ad986057c5cbf97eb2a3bdd') in 0.012674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Images/IsometricBuildings/stairs_short_SE.png
+  artifactKey: Guid(c53d053ec983aff4a899edf22f641bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/stairs_short_SE.png using Guid(c53d053ec983aff4a899edf22f641bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '700410efbda7a48fbfb6f67c96dec66d') in 0.013120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.274230 seconds.
+  path: Assets/Images/IsometricBuildings/structure_closed_NW.png
+  artifactKey: Guid(f12c3360128eba34fb348a30b370a16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/structure_closed_NW.png using Guid(f12c3360128eba34fb348a30b370a16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044b7ba12dd0c5849fa45e8aa219b27f') in 0.032948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Images/IsometricBuildings/structure_detailed_SE.png
+  artifactKey: Guid(755d2327a4e05e3489efab555c83a632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/structure_detailed_SE.png using Guid(755d2327a4e05e3489efab555c83a632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9123dfea6080540a21eae92b5f590e') in 0.012781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Images/IsometricBuildings/structure_NW.png
+  artifactKey: Guid(a5fc6da24f3aaf148b0ab62236b73edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/structure_NW.png using Guid(a5fc6da24f3aaf148b0ab62236b73edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4477ed14c9c9e2358a558f45344ade9') in 0.013033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Images/IsometricBuildings/structure_SE.png
+  artifactKey: Guid(862393b0cdcf2b74cb544d221dcde3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/IsometricBuildings/structure_SE.png using Guid(862393b0cdcf2b74cb544d221dcde3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a440148c48910d04f77d0f02db99ac') in 0.012333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.328190 seconds.
+  path: Assets/Materials/Cartoon_Texture_Pack/SAND/SAND_Underwater/Textures/Sand_Underwater_Base_AO.png
+  artifactKey: Guid(4b63e4448e9efbc4ea4ed3da67416981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Cartoon_Texture_Pack/SAND/SAND_Underwater/Textures/Sand_Underwater_Base_AO.png using Guid(4b63e4448e9efbc4ea4ed3da67416981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab0826e04cb168572cb85c110f2b17f') in 0.025975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Materials/Cartoon_Texture_Pack/SAND/SAND_Underwater/Textures/Sand_Underwater_Shell_Normal.png
+  artifactKey: Guid(30b25325c708fc342ab5de0df5b1fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Cartoon_Texture_Pack/SAND/SAND_Underwater/Textures/Sand_Underwater_Shell_Normal.png using Guid(30b25325c708fc342ab5de0df5b1fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47618601b79e4f3078ab2ca677aace1') in 0.043597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
