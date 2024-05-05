@@ -5,13 +5,15 @@ using UnityEngine;
 
 public class GridData
 {
+    // stores all placed objects, key is EVERY position value is PlacementData instance
     private Dictionary<Vector3Int, PlacementData> placedObjects = new Dictionary<Vector3Int, PlacementData>();
 
+    // adds object to the grid data storage
     public void AddObjectAt(Vector3Int gridPosition, Vector2Int objectSize, int id, int placedObjectIndex)
     {
-        List<Vector3Int> positionToOccupy = CalculatePositions(gridPosition, objectSize);
-        PlacementData data = new PlacementData(positionToOccupy, id, placedObjectIndex);
-        foreach (var pos in positionToOccupy)
+        List<Vector3Int> positionsToOccupy = CalculatePositions(gridPosition, objectSize);
+        PlacementData data = new PlacementData(positionsToOccupy, id, placedObjectIndex);
+        foreach (var pos in positionsToOccupy)
         {
             if (placedObjects.ContainsKey(pos))
             {
@@ -21,7 +23,8 @@ public class GridData
             placedObjects[pos] = data;
         }
     }
-
+    
+    // returns a list of all grid positions object occupies 
     private List<Vector3Int> CalculatePositions(Vector3Int gridPosition, Vector2Int objectSize)
     {
         List<Vector3Int> returnVals = new();
@@ -36,6 +39,7 @@ public class GridData
         return returnVals;
     }
 
+    // checks if object can be placed on the grid
     public bool CanPlaceObjectAt(Vector3Int gridPosition, Vector2Int objectSize)
     {
         List<Vector3Int> positionToOccupy = CalculatePositions(gridPosition, objectSize);
@@ -50,9 +54,13 @@ public class GridData
     }
 }
 
+
+// class to store Placement Data for a single building
 public class PlacementData
 {
+    // all occupied positions on the grid
     public List<Vector3Int> occupiedPositions;
+    // id of placed item
     public int ID { get; private set; }
     public int PacedObjectIndex { get; private set; }
 
