@@ -1791,7 +1791,7 @@ MonoBehaviour:
   sceneCamera: {fileID: 1492619790}
   placementLayerMask:
     serializedVersion: 2
-    m_Bits: 9
+    m_Bits: 8
 --- !u!4 &1491904723
 Transform:
   m_ObjectHideFlags: 0

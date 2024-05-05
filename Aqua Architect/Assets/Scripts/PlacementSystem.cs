@@ -19,9 +19,15 @@ public class PlacementSystem : MonoBehaviour
 
     [SerializeField] private GameObject gridVisualization;
 
+    private GridData buildingData;
+    private Renderer previewRenderer;
+    private List<GameObject> placedGameObjects = new();
+
     private void Start()
     {
         StopPlacement();
+        buildingData = new();
+        previewRenderer = cellIndicator.GetComponentInChildren<Renderer>();
     }
 
     public void StartPlacement(int ID)
@@ -49,8 +55,24 @@ public class PlacementSystem : MonoBehaviour
         Vector3 mousePosition = inputManager.GetSelectedMapPosition();
         Vector3Int gridPosition = grid.WorldToCell(mousePosition);
 
+        bool placementValidity = CheckPlacementValidity(gridPosition, selectetObjectIndex);
+        if (placementValidity == false)
+        {
+            return;
+        }
+
+
         GameObject newObject = Instantiate(databaseSO.objectsData[selectetObjectIndex].Prefab);
         newObject.transform.position = grid.CellToWorld(gridPosition);
+        placedGameObjects.Add(newObject);
+        buildingData.AddObjectAt(gridPosition, databaseSO.objectsData[selectetObjectIndex].Size,
+            databaseSO.objectsData[selectetObjectIndex].ID,
+            placedGameObjects.Count -1);
+    }
+
+    private bool CheckPlacementValidity(Vector3Int gridPosition, int selectetObjectIndex)
+    {
+        return buildingData.CanPlaceObjectAt(gridPosition, databaseSO.objectsData[this.selectetObjectIndex].Size);
     }
 
     private void StopPlacement()
@@ -70,7 +92,10 @@ public class PlacementSystem : MonoBehaviour
         }
         Vector3 mousePosition = inputManager.GetSelectedMapPosition();
         Vector3Int gridPosition = grid.WorldToCell(mousePosition);
-
+        
+        bool placementValidity = CheckPlacementValidity(gridPosition, selectetObjectIndex);
+        previewRenderer.material.color = placementValidity ? Color.green : Color.red;
+        
         mouseIndicator.transform.position = mousePosition;
         cellIndicator.transform.position = grid.CellToWorld(gridPosition);
     }
